@@ -1,0 +1,1355 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<menu_version>20230303</menu_version>
+	<menu name="Main" id="menu_main" state="enabled">
+		<menu name="Job" id="menu_job" state="enabled">
+			<menu_item name="New Job" id="job_new" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Open Job" id="job_open" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Delete Job" id="job_delete" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Job Info" id="job_info" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Job Photos" id="job_photo_browser" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Save Job As" id="job_save_as" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Copy Job" id="job_copy_to" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Create Job From File" id="job_create_from" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+		</menu>
+		<menu name="Configure" id="menu_config" state="enabled">
+			<menu_item name="Survey" id="config_survey" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Coord Sys" id="config_coord_system" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Global" id="config_global" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Backup" id="config_backup" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Units" id="config_units" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Instrument" id="ts_config_instrument" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Classes" id="ts_config_classes" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Display" id="config_display" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Alarms" id="config_alarms" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Codes" id="config_codes" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Stake Reports" id="config_stake_reports" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Enterprise" id="config_enterprise" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+		</menu>
+		<menu name="Exchange" id="menu_exchange" state="enabled">
+			<menu_item name="To Job" id="export_to_job" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="From Job" id="import_from_job" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="To File" id="export_to_file" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="From File" id="import_from_file" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="To 3DMC" id="export_to_3dmc" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="From 3DMC" id="import_from_3dmc" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Enterprise" id="export_to_enterprise" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Sitelink3D v2" id="export_to_sitelink2" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="History" id="show_file_progress" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Manage Shared Data" id="update_shared_data" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+		</menu>
+		<menu name="Edit" id="menu_edit" state="enabled">
+			<menu_item name="Points" id="edit_points" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Codes" id="edit_codes" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Layers" id="edit_layers" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Linework@@plural" id="edit_linework" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Areas" id="edit_areas" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Point Lists" id="edit_point_lists" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Raw Data" id="edit_raw_data" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu name="Background" id="menu_edit_images" state="enabled">
+				<menu_item name="Drawings" id="edit_drawings" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Images" id="edit_images" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="WMS" id="edit_wms" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Site Scans" id="edit_bim" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="3D Models" id="edit_bim_model" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Point Clouds" id="edit_point_clouds" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+					</platforms>
+				</menu_item>
+			</menu>
+			<menu_item name="Surfaces" id="edit_surfaces" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Planes" id="edit_planes" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Sessions" id_gps="gps_edit_sessions" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu name="Roads" id="menu_edit_roads" state="enabled">
+				<menu_item name="Roads" id="edit_roads" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Horizontal@@horizontal_align_menu" id="edit_road_horizontal" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Vertical@@vertical_align_menu" id="edit_road_vertical" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Templates" id="edit_road_templates" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="X-Sections" id="edit_road_xsections" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="String Set" id="edit_road_string_set" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Equation Set" id="edit_road_equation_set" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Regions" id="edit_regions" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+			</menu>
+		</menu>
+		<menu name="Calculate" id="menu_cogo" state="enabled">
+			<menu name="Inverse" id="menu_cogo_inverse" state="enabled">
+				<menu_item name="Pt To Pt" id="cogo_inverse_pt_to_pt" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Pt To Line" id="cogo_inverse_pt_to_line" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Pt To List" id="cogo_inverse_pt_to_list" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Pt To Curve" id="cogo_inverse_pt_to_curve" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Pt To Road" id="cogo_inverse_pt_to_road" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Pt To Linework" id="cogo_inverse_pt_to_linework" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Inverse Linework" id="cogo_linework_report" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Pt To Plane" id="cogo_inverse_pt_to_plane" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Line To Plane" id="cogo_inverse_line_to_plane" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+			</menu>
+			<menu_item name="Pt In Dir" id_gps="cogo_pt_in_dir" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Pt In Dir" id_ts="ts_cogo_pt_in_dir" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Calculator" id="calculator" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Session Check" id="cogo_session_check" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu name="Curves" id="menu_cogo_curves" state="enabled">
+				<menu_item name="Curve" id="cogo_curve" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="3Pt Curve" id="cogo_curve_3pt" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="PI &amp; Tangents" id="cogo_curve_pi_and_tan" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Radius &amp; Points" id="cogo_curve_radius_and_pts" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Spiral" id="cogo_spiral_solution" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Traverse" id="cogo_traverse_curve" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Vertical" id="cogo_vertical_curve" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+			</menu>
+			<menu name="Area" id="menu_cogo_area" state="enabled">
+				<menu_item name="By Points@@menu_area_by_points" id="cogo_area_by_pts" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Hinge@@menu_area_by_hinge" id="cogo_area_hinge" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Line@@menu_area_by_line" id="cogo_area_line" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+			</menu>
+			<menu name="Angles" id="menu_cogo_angles" state="enabled">
+				<menu_item name="Corner Angle" id="cogo_corner_angle" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="3D Corner Angle" id="cogo_corner_angle_3d" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Triangle" id="cogo_triangle_solution" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+			</menu>
+			<menu name="Offsets" id="menu_cogo_offsets" state="enabled">
+				<menu_item name="Intersection" id="cogo_intersection" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Line" id="cogo_offset_line" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Corners" id="cogo_offset_corner" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Curve" id="cogo_offset_curve" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Linework" id="cogo_offset_linework" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Points" id="cogo_points_offset" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Road" id="cogo_offset_road" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Vertical Intersection" id="cogo_vertical_intersection" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+			</menu>
+			<menu name="Transform" id="menu_cogo_adjust" state="enabled">
+				<menu_item name="Rotate" id="cogo_adjust_rotate" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Translate" id="cogo_adjust_translate" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Scale" id="cogo_adjust_scale" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="2D Transform" id="cogo_adjust_2d_transform" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Drawing Transform" id="cogo_drawings_transform" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Image Transform" id="cogo_images_transform" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="3D Model" id="cogo_3dmodel_transform" state="enabled">
+					<platforms>
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Point Clouds" id="cogo_point_cloud_transform" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+			</menu>
+			<menu name="Traverse" id="menu_cogo_traverse" state="enabled">
+				<menu_item name="Calculate" id="cogo_traverse_calc" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Adjust" id="cogo_adjust_traverse" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Closure" id="cogo_traverse_misclosure" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Replace Station" id_ts="cogo_traverse_replace_stn" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Restore Station" id_ts="cogo_traverse_restore_stn" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+			</menu>
+			<menu name="Surface" id="menu_cogo_dtm" state="enabled">
+				<menu_item name="Volumes" id="cogo_dtm_volumes" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Create" id="cogo_dtm_create" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Contour" id="cogo_dtm_contour" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Elevate from" id="cogo_dtm_elevate_from_surface" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+			</menu>
+			<menu_item name="Enter Plan" id="cogo_enter_plan" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+		</menu>
+		<menu_item name="Map" id="show_map" state="enabled">
+			<platforms>
+				<platform id="controller" />
+				<platform id="desktop" />
+				<platform id="onboard" />
+			</platforms>
+		</menu_item>
+		<menu_item name="Connect" id="connect" state="enabled">
+			<platforms>
+				<platform id="controller" />
+				<platform id="desktop" />
+				<platform id="onboard" />
+			</platforms>
+		</menu_item>
+		<menu name="Setup@@menu_ts_setup" id_ts="menu_ts_setup" state="enabled">
+			<menu_item name="Backsight" id_ts="ts_setup_backsight" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Resection" id_ts="ts_setup_resection" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Benchmark" id_ts="ts_setup_remote_bm" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Reference Line" id_ts="ts_setup_reference_line" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Reference Direction" id_ts="ts_setup_reference_line_by_azimuth" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Setup by Grid Lines" id_ts="ts_setup_by_grid_lines" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Backsight Adjustment" id_ts="ts_backsight_adjustment" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Localization" id_ts="gps_setup_localization" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Simulator" id_ts="edit_ts_simulator" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Remote Control" id_ts="ts_setup_remote_ctrl" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+		</menu>
+		<menu name="Setup@@menu_gnss_setup" id_gps="menu_gnss_setup" state="enabled">
+			<menu_item name="Status" id_gps="gps_setup_status" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu name="Manage Receiver" id_gps="gps_setup_preferencies" state="enabled">
+				<menu_item name="Info" id_gps="gps_receiver_info" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="File Manager" id_gps="gps_receiver_file_manager" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="OAF License" id_gps="gps_setup_oaf_uploader" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Update" id_gps="gps_receiver_update_uploader" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Recovery" id_gps="gps_receiver_recovery" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Settings" id_gps="gps_receiver_settings" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Wi-Fi" id_gps="gps_receiver_wifi" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+			</menu>
+			<menu_item name="Mission Planning" id_gps="gps_mission_planning" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Start Base" id_gps="gps_setup_start_base" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Localization" id_gps="gps_setup_localization" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Simulator" id_gps="edit_simulator" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Fixed GGA" id_gps="edit_fixed_gga_position" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Static Occupation" id_gps="gps_setup_static_occup" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu_item name="mmGPS Init" id_gps="gps_setup_mmgps" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu_item name="mmGPS Sensor" id_gps="gps_init_mmgps_sensor" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu_item name="PP Sessions" id_gps="gps_setup_session" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Survey Session" id_gps="gps_setup_rtk_session" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Correct Base" id_gps="gps_correct_base" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Mock Location" id_gps="mock_location" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+		</menu>
+		<menu name="Survey" id="menu_survey" state="enabled">
+			<menu_item name="Topo" id_gps="gps_survey_topo" id_ts="ts_survey_topo" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Auto Topo" id_gps="gps_survey_autotopo" id_ts="ts_survey_autotopo" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="X-Section" id_gps="gps_survey_xsection" id_ts="ts_survey_xsection" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Find Station" id_gps="gps_survey_find_station" id_ts="ts_survey_find_station" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Tape Dim." id_gps="gps_survey_tape_dim" id_ts="ts_survey_tape_dim" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Surface" id_gps="gps_survey_surface_topo" id_ts="ts_survey_surface_topo" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="A1 Stereo" id="hpplus_live_video" state="enabled">
+				<platforms>
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu_item name="A3" id="hpplus_a3_photogrammetry" state="enabled">
+				<platforms>
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Missing Line" id_ts="ts_survey_missing_line" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Monitor" id_ts="ts_survey_monitor" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Set Collection" id_ts="ts_survey_set_collection" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Image Scan" id_ts="ts_survey_scanning" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Site Scan" id_ts="ts_survey_bim_scan" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu name="Scanning" id_ts="ts_survey_feature_scan_menu" state="disabled">
+				<menu_item name="Grid Scan" id_ts="ts_survey_grid_scan" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Feature Scan" id_ts="ts_survey_feature_scan" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Panorama" id_ts="ts_survey_pano_360" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="View" id_ts="ts_survey_fscan_view" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Image Scan" id_ts="ts_survey_scanning2" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Site Scan" id_ts="ts_survey_bim_scan2" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+			</menu>
+		</menu>
+		<menu_item name="Two-Peg Test" id_ts="ts_two_peg_test" state="enabled">
+			<platforms>
+				<platform id="controller" />
+				<platform id="desktop" />
+				<platform id="onboard" />
+			</platforms>
+		</menu_item>
+		<menu_item name="Level Run" id_ts="ts_level_run" state="enabled">
+			<platforms>
+				<platform id="controller" />
+				<platform id="desktop" />
+				<platform id="onboard" />
+			</platforms>
+		</menu_item>
+		<menu name="Stake" id="menu_stake" state="enabled">
+			<menu_item name="Points" id="stake_points" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Lines" id="stake_lines" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu name="Offsets" id="menu_stake_offsets" state="enabled">
+				<menu_item name="Line" id="stake_offset_line" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Intersection" id="stake_offset_intersection" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="3Pt Curve" id="stake_offset_3pt_curve" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Curve" id="stake_offset_curve" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Spiral" id="stake_offset_spiral" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Pt In Dir" id_gps="stake_pt_in_dir" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+				<menu_item name="Pt In Dir" id_ts="stake_pt_in_dir_ts" state="enabled">
+					<platforms>
+						<platform id="controller" />
+						<platform id="desktop" />
+						<platform id="onboard" />
+					</platforms>
+				</menu_item>
+			</menu>
+			<menu_item name="Surface" id="stake_surface" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Grid" id="stake_grid" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Point List" id="stake_point_list" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Curve" id="stake_curve" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Points" id_ts="ts_stake_points" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Point List" id_ts="ts_stake_point_list" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Real Time Road" id="stake_real_time_road" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Road" id="stake_road" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Slope" id="stake_slope" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Linework" id="stake_linework" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="3D Model" id="stake_3d_model" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Elevation" id_ts="ts_stake_elevation" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+		</menu>
+		<menu name="Reports" id="menu_reports" state="enabled">
+			<menu_item name="Field Reports" id="field_reports" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Stake Reports" id="edit_stake_reports" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="DL Report" id="dl_reports" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Report Header" id="edit_header_reports" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+		</menu>
+		<menu name="Apps" id="menu_apps" state="enabled">
+			<menu_item name="Take Photo" id="take_photo" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Web Browser" id="web_browser" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Photo Viewer" id="photo_viewer" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Files" id="files_explorer" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+					<platform id="onboard" />
+				</platforms>
+			</menu_item>
+			<menu_item name="Scan QR Code" id="qr_code" state="enabled">
+				<platforms>
+					<platform id="controller" />
+					<platform id="desktop" />
+				</platforms>
+			</menu_item>
+		</menu>
+	</menu>
+</root>
