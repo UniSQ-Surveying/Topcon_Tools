@@ -146,8 +146,8 @@
 				</platforms>
 			</menu_item>
 		</menu>
-		<menu name="Exchange" id="menu_exchange" state="enabled">
-			<menu_item name="To Job" id="export_to_job" state="enabled">
+		<menu name="Export/Import" id="menu_exchange" state="enabled">
+			<!-- <menu_item name="To Job" id="export_to_job" state="enabled">
 				<platforms>
 					<platform id="controller" />
 					<platform id="desktop" />
@@ -160,22 +160,22 @@
 					<platform id="desktop" />
 					<platform id="onboard" />
 				</platforms>
-			</menu_item>
-			<menu_item name="To File" id="export_to_file" state="enabled">
+			</menu_item> -->
+			<menu_item name="Export File" id="export_to_file" state="enabled">
 				<platforms>
 					<platform id="controller" />
 					<platform id="desktop" />
 					<platform id="onboard" />
 				</platforms>
 			</menu_item>
-			<menu_item name="From File" id="import_from_file" state="enabled">
+			<menu_item name="Import File" id="import_from_file" state="enabled">
 				<platforms>
 					<platform id="controller" />
 					<platform id="desktop" />
 					<platform id="onboard" />
 				</platforms>
 			</menu_item>
-			<menu_item name="To 3DMC" id="export_to_3dmc" state="enabled">
+			<!-- <menu_item name="To 3DMC" id="export_to_3dmc" state="enabled">
 				<platforms>
 					<platform id="controller" />
 					<platform id="desktop" />
@@ -188,7 +188,7 @@
 					<platform id="desktop" />
 					<platform id="onboard" />
 				</platforms>
-			</menu_item>
+			</menu_item>-->
 			<menu_item name="Enterprise" id="export_to_enterprise" state="enabled">
 				<platforms>
 					<platform id="controller" />
@@ -196,13 +196,13 @@
 					<platform id="onboard" />
 				</platforms>
 			</menu_item>
-			<menu_item name="Sitelink3D v2" id="export_to_sitelink2" state="enabled">
+			<!-- <menu_item name="Sitelink3D v2" id="export_to_sitelink2" state="enabled">
 				<platforms>
 					<platform id="controller" />
 					<platform id="desktop" />
 					<platform id="onboard" />
 				</platforms>
-			</menu_item>
+			</menu_item> -->
 			<menu_item name="History" id="show_file_progress" state="enabled">
 				<platforms>
 					<platform id="controller" />
