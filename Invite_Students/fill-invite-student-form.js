@@ -158,8 +158,8 @@ async function createRows (numRows) {
         // Need to trigger mousedown event because clicks are prevented
         triggerMouseDown(nodes);
 
-        // Wait 1 second
-        await timer(1000);
+        // Wait 1.5 seconds, otherwise some rows might not be created
+        await timer(1500);
     }
 }
 
