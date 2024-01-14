@@ -5,17 +5,18 @@
 // Where XXXX... is the org id
 //
 // Usage:
-// 0. Download the student csv from StudyDesk
-// 1. Copy the contents of this file (Ctrl + A then Ctrl + C)
-// 2. Open Google Chrome (not a different browser)
-// 3. Go to the Invite page
-// 4. Open Chrome Dev Tools with Ctrl + Shift + I
-// 5. Go to the Console tab (up the top)
-// 6. Ctrl + V to paste the code
-// 7. Press Enter
-// 8. A file picker will appear - choose the file that you downloaded in step 0
-// 9. Watch the magic unfold
-// 10. Press the Invite Members button down the bottom of the page
+// 0. Download the student csv from StudyDesk or Faculty Center
+// 1. Move the email column to the first column
+// 2. Copy the contents of this file (Ctrl + A then Ctrl + C)
+// 3. Open Google Chrome (not a different browser)
+// 4. Go to the Invite page
+// 5. Open Chrome Dev Tools with Ctrl + Shift + I
+// 6. Go to the Console tab (up the top)
+// 7. Ctrl + V to paste the code
+// 8. Press Enter
+// 9. A file picker will appear - choose the file that you downloaded in step 0
+// 10. Watch the magic unfold
+// 11. Press the Invite Members button down the bottom of the page
 
 /* Copyright 2012-2013 Daniel Tillin
  *
@@ -173,7 +174,7 @@ function fillRows (csvAsArray) {
 }
 
 // Starting at zero, what column number is the email in?
-const EMAIL_INDEX = 3;
+const EMAIL_INDEX = 0;
 
 async function main() {
     let csvAsArray = await readCsv();

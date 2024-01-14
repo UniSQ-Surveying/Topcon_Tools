@@ -5,4 +5,3 @@ The page to invite students does not currently have a bulk upload function. This
 ## Getting started
 
 See the header of the fill-invite-student-form.js for instructions.
-
