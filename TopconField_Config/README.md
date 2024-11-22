@@ -20,7 +20,7 @@ database.
 
 Topcon Field also loads config styles from all jobs in the Jobs folder.
 As a result, all jobs must be deleted in order to only load the desired styles.
-Instead of deleting, the jobs are moved to a Backup folder in Documents\Topcon Field PC\Backup.
+This script deletes all Jobs in the Jobs folder.
 
 ### Menu items
 
